@@ -1,0 +1,47 @@
+PS C:\Users\tahelegonus\httpserver> cl httpserver.c ws2_32.lib
+Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35228 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+httpserver.c
+Microsoft (R) Incremental Linker Version 14.44.35228.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:httpserver.exe 
+httpserver.obj 
+ws2_32.lib 
+PS C:\Users\tahelegonus\httpserver> dir
+
+
+    Directory:PS C:\Users\tahelegonus\httpserver> 
+
+
+Mode                 LastWriteTime Lengt
+----                 ------------- -----
+d-----          7/8/2026  12:03 PM      
+-a----          7/8/2026  12:05 PM  1716
+-a----          7/8/2026  12:12 PM 14131
+                                       2
+-a----          7/8/2026  12:12 PM  4113
+-a----          7/8/2026  12:03 PM 82944
+
+
+PS C:\Users\tahelegonus\httpserver>  dir 
+
+
+    Directory: PS C:\Users\tahelegonus\httpserver> 
+
+Mode                 LastWriteTime         Length Name                                      
+----                 -------------         ------ ----                                      
+d-----          7/8/2026  12:03 PM                .vscode                                   
+-a----          7/8/2026  12:05 PM           1716 httpserver.c                              
+-a----          7/8/2026  12:12 PM         141312 httpserver.exe                            
+-a----          7/8/2026  12:12 PM           4113 httpserver.obj                            
+-a----          7/8/2026  12:03 PM          82944 vc140.pdb                                 
+
+
+PS C:\Users\tahelegonus\httpserver>.\httpserver.exe
+server starting...
+socket created!
+server bound to port 8080!
+server listening...
+client connected!
+PS C:\Users\83 N-CPT Analyst\Downloads\httpserver> 
