@@ -1,0 +1,24 @@
+# Executables 
+*.exe 
+
+# Object files 
+*.o
+*.obj
+
+# Visual Studio Files 
+.vscode/
+.vs/
+
+# Build Folders 
+Debug/
+Release/
+x64/
+
+
+# Github Upload Commands - powershell 
+git init 
+git add 
+git commit -m "Inital commit: TCP HTPP server in C"
+git branch -M main 
+git remote add orgin https://github.com/tahelegonus/httpserver.git 
+git push -u orgin main
