@@ -39,7 +39,7 @@ WARNING: TCP connect to (::1 : 8080) failed
 WARNING: TCP connect to (127.0.0.1 : 8080) failed
 
 
-ComputerName           : localhost
+ComputerName           : tahelegonus
 RemoteAddress          : ::1
 RemotePort             : 8080
 InterfaceAlias         : Loopback Pseudo-Interface 1
