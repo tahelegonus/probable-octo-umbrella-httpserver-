@@ -16,7 +16,7 @@ my orginal plan was to focus more on processing http traffic through html websit
 - accepts client connections
 - handles basic client connection events
 - provides console based server status messages!
-- 
+
 # Tech Used 
 - C progaming language ( low level systems programming)
 - windows sockets (winsock2 api) ( tcp/ip networking on windows)
@@ -74,17 +74,16 @@ WSACleanup();
 # How was proable octo umbrella tested? 
 long story short, the server was tested by attempting to connect to the open tcp port, which i used powershell to simulate this test!
 
-start the server: 
+*start the server:* 
 .\httpserver.exe
 
-the server  displayed:
-
+*the server  displayed:*
 server starting...
 socket created!
 server bound to port 8080!
 server listening...
 
-then, in another PowerShell window, i ran:
+*then, in another PowerShell window, i ran:*
 
 Test-NetConnection localhost -Port 8080
 
@@ -93,7 +92,7 @@ ComputerName     : localhost
 RemotePort       : 8080
 TcpTestSucceeded : True
 
-with a sucessful connection, it seals the deal that the connection to the server happend correctly! 
+*with a sucessful connection, it seals the deal that the connection to the server happend correctly!* 
 
 # FUTURE IMRPOVEMENTS !
 Now, a disclaimer, like i mentioned previously, after this intital test, it only accepts the tcp connections, so it does not send http responses. even though the server opens: http://localhost:8080, it does connect not fully show a webpage. for my step up from this project, i will allow the sever to parse the rquests and return html content! 
